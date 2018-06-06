@@ -25,9 +25,12 @@
     @import "~common/stylus/variable"
     .tab
         display flex
+        //position relative
+        //z-index 1
         height 44px
         line-height 44px
         font-size $font-size-medium
+        background $color-background
         .tab-item
             flex 1
             text-align center
